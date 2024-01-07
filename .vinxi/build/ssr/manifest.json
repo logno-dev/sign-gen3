@@ -1,0 +1,59 @@
+{
+  "_index-4c60157c.js": {
+    "file": "assets/index-4c60157c.js"
+  },
+  "_routes-0fb0d1aa.js": {
+    "dynamicImports": [
+      "src/routes/[...404].jsx?pick=default&pick=$css",
+      "src/routes/[...404].jsx?pick=default&pick=$css",
+      "src/routes/about.jsx?pick=default&pick=$css",
+      "src/routes/about.jsx?pick=default&pick=$css",
+      "src/routes/index.jsx?pick=default&pick=$css",
+      "src/routes/index.jsx?pick=default&pick=$css"
+    ],
+    "file": "assets/routes-0fb0d1aa.js"
+  },
+  "src/routes/[...404].jsx?pick=default&pick=$css": {
+    "file": "_...404_.js",
+    "imports": [
+      "_index-4c60157c.js",
+      "_routes-0fb0d1aa.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/[...404].jsx?pick=default&pick=$css"
+  },
+  "src/routes/about.jsx?pick=default&pick=$css": {
+    "file": "about.js",
+    "imports": [
+      "_index-4c60157c.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/about.jsx?pick=default&pick=$css"
+  },
+  "src/routes/index.css": {
+    "file": "assets/index-fdb6b3cf.css",
+    "src": "src/routes/index.css"
+  },
+  "src/routes/index.jsx?pick=default&pick=$css": {
+    "css": [
+      "assets/index-fdb6b3cf.css"
+    ],
+    "file": "index.js",
+    "imports": [
+      "_index-4c60157c.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/index.jsx?pick=default&pick=$css"
+  },
+  "virtual:#vinxi/handler/ssr": {
+    "file": "ssr.js",
+    "imports": [
+      "_routes-0fb0d1aa.js"
+    ],
+    "isEntry": true,
+    "src": "virtual:#vinxi/handler/ssr"
+  }
+}
